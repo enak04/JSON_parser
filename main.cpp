@@ -19,13 +19,13 @@ int main() {
 
                 switch(token.type){
                     case TokenType::PUNCT:
-                        std::cout << "PUNCT" << token.value << std::endl;
+                        std::cout << "PUNCT " << token.value << std::endl;
                         break;
                     case TokenType::STRING:
-                        std::cout << "STRING" << token.value << std::endl;
+                        std::cout << "STRING " << token.value << std::endl;
                         break;
                     case TokenType::NUMBER:
-                        std::cout << "NUMBER" << token.value << std::endl;
+                        std::cout << "NUMBER " << token.value << std::endl;
                         break;
                     case TokenType::TRUE_LITERAL:
                         std::cout << "TRUE true" << std::endl;
