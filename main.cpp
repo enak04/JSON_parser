@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 
-#include "tokenizer.h"
+#include "tokenizer.cpp"
 
 // TODO (json-tokenize): implement per the lesson description.
 
