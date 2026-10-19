@@ -42,7 +42,7 @@ int main() {
                 }
             }
         } catch(const std::exception& e){
-            std::cout << "Error: " << e.what() << std::endl;
+            std::cout << "ERR " << e.what() << std::endl;
         }
     }
 }
